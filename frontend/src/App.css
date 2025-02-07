@@ -1,0 +1,30 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Remove unnecessary logo effects */
+.logo {
+  height: 5em;
+  padding: 1.5em;
+  transition: opacity 0.3s;
+}
+.logo:hover {
+  opacity: 0.8;
+}
+
+/* Card Styling */
+.card {
+  padding: 1.5em;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* General Typography */
+.read-the-docs {
+  color: #777;
+  font-size: 0.9rem;
+}
